@@ -115,5 +115,3 @@ export POWERLINE_ROOT=/usr/local/lib/python2.7/site-packages/powerline
 # Docker Machine
 eval $(docker-machine env default)
 
-
-corsify() { heroku config:set AUTH0_COOKIE_DOMAIN=frontend-360-pr-$1.herokuapp.com --app frontend-360-pr-$1; }
